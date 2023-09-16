@@ -1,0 +1,147 @@
+body {
+    background-image: url(../images/bg.jpg);
+    background-position-x: center;
+    background-position-y: top;
+    background-size: initial;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: rgb(0, 54, 73);
+    padding: 20px 0;
+    margin: center;
+}
+botoes-box {
+    height: 32px;
+    width: 100%;
+    display: block;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+    text-align: center;
+    border: 1px solid;
+    border-radius: 36px;
+    margin: 0,0,20px;
+    padding: 15px,0,0;
+    box-sizing: border-box;
+    overflow: hidden;
+    
+   
+}
+.botoes button{
+   -webkit-transition: -webkit-transform .5s ease;
+   transition: transform .5s ease;
+}
+.botoes :hover button{
+   -webkit-transform: scale(1.1);
+   transform: scale(1.1);
+}
+.botoes button {
+    position: relative;
+    top: 15px;
+    margin-bottom: 1pc;
+    display: block;
+    align-items: center;
+    
+}
+
+.programação {
+
+    position: relative;
+    left: 0px;
+    right: 0;
+    margin: auto;
+    width: 352px;
+    height: 47px;
+    background-color: #C92071;
+    border: 1px solid;
+    border-radius: 300px;
+    font-size: 15px;
+    color: white;
+    cursor: pointer;
+    padding: 10px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
+    
+}
+ .ANALYTICS {
+    position: relative;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 352px;
+    height: 47px;
+    background-color: #F9E784;
+    border: 1px solid #fff ;
+    border-radius: 300px;
+    font-size: 15px;
+    color: black;
+    cursor: pointer;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
+    
+ }
+ a {
+   text-decoration: none;
+ }
+
+ .MARKETING {
+    position: relative;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 352px;
+    height: 47px;
+    background-color: #623CEA;
+    border: 1px solid ;
+    border-radius: 300px;
+    font-size: 15px;
+    color: white;
+    cursor: pointer;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
+    
+ }
+  .CIBERSEGURANÇA {
+    position: relative;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 352px;
+    height: 47px;
+    background-color: #46c878;
+    border: 1px solid ;
+    border-radius: 300px;
+    font-size: 15px;
+    color: white;
+    cursor: pointer;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    
+ }
+  .ATENDIMENTO {
+    position: relative;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 352px;
+    height: 47px;
+    background-color: rgb(0, 54, 73);
+    border: 1px solid #fff;
+    border-radius: 300px;
+    font-size: 15px;
+    color: white;
+    cursor: pointer;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    
+ }
+ .gallery {
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+ }
+ .gallery .imagem {
+   width: 200px;
+   height: 200px;
+   object-fit: fill;
+ }
